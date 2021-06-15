@@ -1,0 +1,38 @@
+log entery 1 - 12/21/2020:
+- I have finished taking notes on the selected sources which was the programmable
+  robotic arm by ryan chan and the robotic arm with controller by HomeMadeGarbage. 
+  my next plan is to write up the first draft of my version of the robotic arm, however
+  this robotic arm will follow closely with Ryan Chan's robotic arm. 
+
+- the main goal is to be able to move a robotic arm and to recall its movemements. 
+  in the end we want to be able to make a robotic arm that can hold circuit components
+  and remember the positions and to be able to controll it remotely. 
+
+- my next move is to create the first draft of the project code and to make a simulation or
+  a model of the project. then I will write up the schematic for the record using eagle. 
+  I will also consider making the length of the arm to be 5.90 inches and 3.54 inches for 
+  the fore arm.
+
+log entry 2 - 12/21/2020:
+- I have finished making the first draft of the code. the code follows closely with ryan 
+  chan. the next thing I will do is to start on the simulations and write down any findings. 
+  the structure will most likely resemble Ryan Chan's work. 
+
+- I have finished the simulation part of the project and everything seems alright but the
+  physical would provid more insight.  the only problem is the last LED that should
+  indicate that the data is saved. however this problem is minimal and the serial monitor 
+  should indicate if the position is saved.
+
+log entry 3 - 12/23/2020:
+- I have made the prototype on the test bench, but it appears I have made some changes.
+  pin 5 is connected to the base, pin 6 is connected to the first part of the arm
+  pin 9 is connected to the forarm joint. I have also added a 20 V capacitor, we will see
+  how the circuit will react. 
+
+- the first try of uplading and testing the code it seems that the servo motors are not 
+  responding to the potentiometers. upon futher inspection the potentiometers are not 
+  connected properly the potentiometers are only connected to power and not ground. 
+
+- I have made some progress on the project but i also included another capacitor so that 
+  the signals from the potentiometer is clean as possible. perhaps with ceramic capacitors I
+  could have cleaner input to output. 
